@@ -3,7 +3,7 @@ body {
 }
 
 body > * {
-    padding: 0 100px;
+    padding: 0 200px;
 }
 
 .header-container {
@@ -17,7 +17,7 @@ body > * {
 .header-container > ul {
     list-style: none;
     display: flex;
-    gap: 12px;
+    gap: 16px;
 }
 
 li > a {
@@ -29,7 +29,8 @@ li > a {
     display: flex;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 7% 100px;
+    padding-top: 4%;
+    padding-bottom: 4%;
     gap: 24px;
 }
 
@@ -49,10 +50,11 @@ li > a {
     margin: 0;
 }
 
-.left-side > button {
+.left-side > button, .signup-container > button {
     padding:1% 5%;
     margin-top: 10px;
     width: fit-content;
+    height: fit-content;
     background-color: #3882f6;
     border-radius: 8px;
     border: none;
@@ -68,6 +70,10 @@ li > a {
     text-align: center;
 }
 
+.title-container > img {
+    width: 500px;
+    height: auto;
+}
 .info {
     text-align: center;
 }
@@ -75,15 +81,35 @@ li > a {
 .info-container {
     display: flex;
     flex-direction: column;
-    font-size: 18px;
 }
-
+.info-container > img {
+    width: 200px;
+    height: auto;
+}
 .info-container > .placeholder {
-    padding: 50px;
+    padding: 75px;
     border: 3px;
     border-style: solid;
     border-color: #3882f6;
     border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+.puss {
+    background-image: url(puss.jpg);
+}
+
+.fiona {
+    background-image: url(fiona.jpg);
+}
+
+.pinocchio {
+    background-image: url(pinocchio.jpg);
+}
+
+.harold {
+    background-image: url(harold.jpg);
 }
 
 .containers {
@@ -97,7 +123,7 @@ li > a {
     display: flex;
     flex-direction: column;
     background-color: #e7e7eb;
-    padding: 10% 20%;
+    padding: 6% 20%;
 }
 
 .quote {
@@ -110,18 +136,39 @@ li > a {
 .quote-author {
     align-self: flex-end;
     margin: 0;
+    font-weight: 700;
+    margin-right: 30px;
+    font-size: x-large;
 }
 
 .signup-container {
     display: flex;
     background-color: #3882f6;
-    margin: 60px 100px;
+    margin: 60px 200px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.signup-container > button {
+    border: #e5e7eb solid 2px;
 }
 
 .handp {
     display: flex;
     flex-direction: column;
     padding: 5%;
+}
+
+.handp > h6 {
+    color: #e5e7eb;
+    font-size: 24px;
+    margin: 0;
+}
+
+.handp > p {
+    color: #e5e7eb;
+    margin: 0;
 }
 
 .footer-container {
