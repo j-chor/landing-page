@@ -1,8 +1,28 @@
 .header-container {
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
 }
 .header-container > ul {
     list-style: none;
     display: flex;
+    gap: 12px;
+}
+a {
+    text-decoration: none;
+}
+
+.title-container {
+    display: flex;
+    
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+.title-container > .placeholder {
+    padding: 80px;
+    background-color: grey;
+    color: white;
 }
