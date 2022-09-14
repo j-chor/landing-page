@@ -29,22 +29,43 @@ li > a {
     display: flex;
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 7% 100px;
+    gap: 24px;
 }
 
 .left-side {
     display: flex;
     flex-direction: column;
+    flex: 1 1 0px;
 }
 
 .left-side > h1 {
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
+}
+
+.left-side > p {
+    margin: 0;
+}
+
+.left-side > button {
+    padding:1% 5%;
+    margin-top: 10px;
+    width: fit-content;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    color: #e7e7eb;
+    font-weight: bold;
 }
 
 .title-container > .placeholder {
-    padding: 80px;
+    /* padding: 80px; */
     background-color: grey;
     color: white;
+    flex: 1 1 0px;
+    text-align: center;
 }
 
 .info {
@@ -54,28 +75,41 @@ li > a {
 .info-container {
     display: flex;
     flex-direction: column;
+    font-size: 18px;
 }
 
 .info-container > .placeholder {
     padding: 50px;
-    border: 5px;
+    border: 3px;
     border-style: solid;
-    border-color: blue;
+    border-color: #3882f6;
+    border-radius: 8px;
 }
 
 .containers {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0 10%;
+    gap: 50px;
 }
 
 .quote-container {
     display: flex;
     flex-direction: column;
     background-color: #e7e7eb;
+    padding: 10% 20%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
 }
 
 .quote-author {
     align-self: flex-end;
+    margin: 0;
 }
 
 .signup-container {
