@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body > * {
@@ -38,6 +39,7 @@ li > a {
     display: flex;
     flex-direction: column;
     flex: 1 1 0px;
+    justify-content: center;
 }
 
 .left-side > h1 {
@@ -51,7 +53,7 @@ li > a {
 }
 
 .left-side > button, .signup-container > button {
-    padding:1% 5%;
+    padding:2% 6%;
     margin-top: 10px;
     width: fit-content;
     height: fit-content;
@@ -59,7 +61,8 @@ li > a {
     border-radius: 8px;
     border: none;
     color: #e7e7eb;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 .title-container > .placeholder {
@@ -76,6 +79,10 @@ li > a {
 }
 .info {
     text-align: center;
+}
+
+.info > h3 {
+    font-size: 28px;
 }
 
 .info-container {
@@ -130,6 +137,7 @@ li > a {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    font-weight: lighter;
     margin: 0;
 }
 
